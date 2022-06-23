@@ -1,16 +1,19 @@
 # warehouse_management
 
-A new Flutter project.
+A new Flutter project for windows.
 
-## Getting Started
+## features
 
-This project is a starting point for a Flutter application.
+* This project is a windows app that u can manage material in warehouse.
 
-A few resources to get you started if this is your first Flutter project:
+* You can add wares with varius of information about it.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* You can edit and delete any wares.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* You can get inventory for any of the ware in the warehouse such as current amount and ware movevement throw month(in/out).
+
+* Sqlflite with sqflite_common_ffi for storing data locally.
+
+## To see other projects developed by me :
+
+- [Portfolio](https://nadeemze.github.io/Portfolio/)

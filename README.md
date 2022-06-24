@@ -13,11 +13,11 @@ A new Flutter project for windows.
 
 * Bloc .
 
-* You can add wares with varius of information about it.
+* You can add wares with various of information about it.
 
 * You can edit and delete any wares.
 
-* You can get inventory for any of the ware in the warehouse such as current amount and ware movevement throw month(in/out).
+* You can get inventory for any of the ware in the warehouse such as current amount and ware movement throw month(in/out).
 
 * Sqlflite with sqflite_common_ffi for storing data locally.
 

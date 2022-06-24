@@ -16,7 +16,7 @@ class _LogInState extends State<LogIn> {
   bool wrongLogin=false;
 
   logIn(){
-    if(_userNameController.text=='Kinan'&&_passwordController.text=='soliman'){
+    if(_userNameController.text=='nadeem'&&_passwordController.text=='test'){
       Navigator.push(context,
           MaterialPageRoute(builder: (context)=>const MyHomePage()));
     }
@@ -68,7 +68,7 @@ class _LogInState extends State<LogIn> {
                   controller:_userNameController ,
                   style: const TextStyle(color: Colors.white),
                   decoration: const InputDecoration(
-                    hintStyle:  TextStyle(color: Colors.white),
+                    hintStyle:  TextStyle(color: Colors.white54),
                     hintText: 'User Name',
                     border: InputBorder.none,
                     prefixIcon: Icon(Icons.person,color: Colors.white,),
@@ -84,7 +84,7 @@ class _LogInState extends State<LogIn> {
                 controller:_passwordController ,
                 style: const TextStyle(color: Colors.white),
                 decoration: const InputDecoration(
-                  hintStyle:  TextStyle(color: Colors.white),
+                  hintStyle:  TextStyle(color: Colors.white54),
                   hintText: 'Password',
                   border: InputBorder.none,
                   prefixIcon: Icon(Icons.lock,color: Colors.white,),
@@ -110,7 +110,12 @@ class _LogInState extends State<LogIn> {
                 onPressed: (){
                   logIn();
                   },
-                child: const Text('LogIn',style: TextStyle(color: Colors.white),),
+                child: const Text('LogIn',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold
+                  ),
+                ),
               ),
             )
           ],
